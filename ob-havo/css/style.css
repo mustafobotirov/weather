@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 1100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
+
+
+.header{
+    padding: 30px 80px;
+}
+.header-2{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 23px;
+    align-items: center;
+}
+
+.bx{
+    font-size: 25px;
+}
+
+.number{
+    font-size: 130px;
+    margin-left: 80px;
+}
+.card-1{
+    background-color: rgb(0,0,0,0.8);
+ 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 400px;
+    height: 620px;
+    color: white;
+    padding: 20px 20px;
+
+}
+
+.degre-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.degre-info-2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.degre-info-3{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.location{
+   margin-left: 120px;
+}
+
+.location-text{
+    text-align: center;
+}
+
+.bxs-cloud{
+    font-size: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.bx-cloud-snow{
+    font-size: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+.bxs-moon{
+    color: white;
+    background-color: black;
+    padding: 3px 3px;
+}
+
+.img-icon{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 200px;
+}
+
+.start{
+padding: 15px;
+}
+
+.parag{
+    width: 100%;
+    text-align: center;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+
+.bxs-sun{
+    font-size: 43px;
+}
+
+@media (max-width: 600px) {
+    .card-1{
+        width: 350px;
+        background-color: rgb(0,0,0,0.8);
+        backdrop-filter: none;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        height: 620px;
+        color: white;
+        padding: 10px 10px;
+    }
+    .header{
+        padding: 20px 1px;
+    }
+    .header-2{
+        padding: 20px 1px;
+    }
+}

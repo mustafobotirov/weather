@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="all">
+        <div class="parag"><h1 class="start">Uzbekistan weather <i class='bx bxs-sun' style='color:#fff000'  ></i></h1></div>
+        <section class="section">
+            <!-- xorazm -->
+            <header class="header">
+                <div class="card-1 ">
+                    <div class="icons">
+                        <div class="info">
+                            <i id="cloud-icon" class='bx bx-cloud '></i>
+                            <div id="cloud"></div>
+                            <span>%</span>
+                        </div>
+
+                         <div class="info">
+                            <i id="wind-icon" class='bx bx-wind'></i>
+                           <div id="wind"></div>
+                           <span>%</span>
+                        </div>
+
+                        <div class="info">
+                            <i id="humidity-icon" class='bx bx-droplet'></i>
+                            <div id="humidity"></div>
+                            <span>%</span>
+                         </div>
+                    </div>
+
+                    <div class="degre-info">
+                        <p id="temp" class="number"></p>
+                         <div class="info">
+                             <div class="arrows">
+                                 <h2>°C</h2>
+                                <i id="feelslike_c" class='bx bx-up-arrow-alt'></i>
+                                <br>
+                              
+                                </div>
+                             </div>
+                    </div>
+                        <div class="location">
+                            <div><h3 id="count-uzbekistan">1</h3></div>
+                            <div> <h2 id="city-khorezm">1</h2></div>
+                         
+                           
+                        </div>
+                     <img class="img-icon" id="icon" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+                </div>
+            </header>
+<!-- andijon -->
+            <header class="header">
+                <div class="card-1 ">
+                    <div class="icons">
+                        <div class="info">
+                            <i id="cloud-icon" class='bx bx-cloud '></i>
+                            <div id="cloud-2"></div>
+                            <span>%</span>
+                        </div>
+
+                         <div class="info">
+                            <i id="wind-icon" class='bx bx-wind'></i>
+                           <div id="wind-2"></div>
+                           <span>%</span>
+                        </div>
+
+                        <div class="info">
+                            <i id="humidity-icon" class='bx bx-droplet'></i>
+                            <div id="humidity-2"></div>
+                            <span>%</span>
+                         </div>
+                    </div>
+
+                    <div class="degre-info">
+                        <p id="temp-2" class="number"></p>
+                         <div class="info">
+                             <div class="arrows">
+                                 <h2>°C</h2>
+                                <i id="feelslike_c-2" class='bx bx-up-arrow-alt'></i>
+                                <br>
+                              
+                                </div>
+                             </div>
+                    </div>
+                        <div class="location">
+                            <div><h2 id="count-uzbekistan-2"></h2></div>
+                            <div><h3 id="city-tashkent"></h3></div>
+                         
+                           
+                        </div>
+                     <img class="img-icon" id="icon-2" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+                </div>
+            </header>
+            <!-- namangan -->
+            <header class="header-2">
+                <div class="card-1 ">
+                    <div class="icons">
+                        <div class="info">
+                            <i id="cloud-icon" class='bx bx-cloud '></i>
+                            <div id="cloud-3"></div>
+                            <span>%</span>
+                        </div>
+    
+                         <div class="info">
+                            <i id="wind-icon" class='bx bx-wind'></i>
+                           <div id="wind-3"></div>
+                           <span>%</span>
+                        </div>
+    
+                        <div class="info">
+                            <i id="humidity-icon" class='bx bx-droplet'></i>
+                            <div id="humidity-3"></div>
+                            <span>%</span>
+                         </div>
+                    </div>
+    
+                    <div class="degre-info">
+                        <p id="temp-3" class="number"></p>
+                         <div class="info">
+                             <div class="arrows">
+                                 <h2>°C</h2>
+                                <i id="feelslike_c-3" class='bx bx-up-arrow-alt'></i>
+                                <br>
+                              
+                                </div>
+                             </div>
+                    </div>
+                        <div class="location">
+                            <div><h2 id="count-uzbekistan-3"></h2></div>
+                            <div><h3 id="city-namangan"></h3></div>
+                         
+                           
+                        </div>
+                     <img class="img-icon" id="icon-3" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+                </div>
+            </header>
+            <!-- buxoro -->
+            <header class="header">
+                <div class="card-1 ">
+                    <div class="icons">
+                        <div class="info">
+                            <i id="cloud-icon" class='bx bx-cloud '></i>
+                            <div id="cloud-4"></div>
+                            <span>%</span>
+                        </div>
+    
+                         <div class="info">
+                            <i id="wind-icon" class='bx bx-wind'></i>
+                           <div id="wind-4"></div>
+                           <span>%</span>
+                        </div>
+    
+                        <div class="info">
+                            <i id="humidity-icon" class='bx bx-droplet'></i>
+                            <div id="humidity-4"></div>
+                            <span>%</span>
+                         </div>
+                    </div>
+    
+                    <div class="degre-info">
+                        <p id="temp-4" class="number"></p>
+                         <div class="info">
+                             <div class="arrows">
+                                 <h2>°C</h2>
+                                <i id="feelslike_c-4" class='bx bx-up-arrow-alt'></i>
+                                <br>
+                              
+                                </div>
+                             </div>
+                    </div>
+                        <div class="location">
+                            <div><h2 id="count-uzbekistan-4"></h2></div>
+                            <div><h3 id="city-buxoro"></h3></div>
+                         
+                           
+                        </div>
+                     <img class="img-icon" id="icon-4" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+                </div>
+            </header>
+         <!-- navoiy -->
+         <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-5"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-5"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-5"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info">
+                    <p id="temp-5" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-5" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-5"></h2></div>
+                        <div><h3 id="city-navoiy"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-5" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <!-- samarqand -->
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-6"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-6"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-6"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info">
+                    <p id="temp-6" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-6" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-6"></h2></div>
+                        <div><h3 id="city-sirdaryo"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-6" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <!-- jizzax -->
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-7"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-7"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-7"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info-2">
+                    <p id="temp-7" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-7" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-7"></h2></div>
+                        <div><h3 id="city-jizzax"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-7" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+
+        <!--  -->
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-8"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-8"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-8"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info-3">
+                    <p id="temp-8" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-8" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-8"></h2></div>
+                        <div><h3 id="city-qashqadaryo"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-8" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <div class="parag"><h1 class="start">Turkey weather <i class='bx bxs-sun' style='color:#fff000'  ></i></h1></div>
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-9"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-9"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-9"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info-3">
+                    <p id="temp-9" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-9" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-9"></h2></div>
+                        <div><h3 id="city-turkey"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-9" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <!--  -->
+
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-10"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-10"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-10"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info-3">
+                    <p id="temp-10" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-10" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-9"></h2></div>
+                        <div><h3 id="city-ist"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-10" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <!--  -->
+        <div class="parag"><h1 class="start">great britain weather <i class='bx bxs-sun' style='color:#fff000'  ></i></h1></div>
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-11"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-11"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-11"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info">
+                    <p id="temp-11" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-11" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-1"></h2></div>
+                        <div><h3 id="city-london"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-11" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        <!--  -->
+        <header class="header">
+            <div class="card-1 ">
+                <div class="icons">
+                    <div class="info">
+                        <i id="cloud-icon" class='bx bx-cloud '></i>
+                        <div id="cloud-12"></div>
+                        <span>%</span>
+                    </div>
+
+                     <div class="info">
+                        <i id="wind-icon" class='bx bx-wind'></i>
+                       <div id="wind-12"></div>
+                       <span>%</span>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidity-icon" class='bx bx-droplet'></i>
+                        <div id="humidity-12"></div>
+                        <span>%</span>
+                     </div>
+                </div>
+
+                <div class="degre-info">
+                    <p id="temp-12" class="number"></p>
+                     <div class="info">
+                         <div class="arrows">
+                             <h2>°C</h2>
+                            <i id="feelslike_c-12" class='bx bx-up-arrow-alt'></i>
+                            <br>
+                          
+                            </div>
+                         </div>
+                </div>
+                    <div class="location">
+                        <div><h2 id="count-uzbekistan-1"></h2></div>
+                        <div><h3 id="city-man"></h3></div>
+                     
+                       
+                    </div>
+                 <img class="img-icon" id="icon-12" src="cdn.weatherapi.com/weather/64x64/day/116.png" alt="">
+            </div>
+        </header>
+        </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
